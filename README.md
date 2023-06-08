@@ -1,0 +1,1 @@
+Personal project to track listening habits in spotify
