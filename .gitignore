@@ -2,8 +2,14 @@ core.Microsoft*
 core.mongo*
 core.python*
 env.py
+.env
 __pycache__/
 *.py[cod]
 node_modules/
 .github/
 db.sqlite3
+.DS_Store
+.cache
+.ipynb_checkpoints/
+.pylintrc
+*.ipynb
