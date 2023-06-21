@@ -11,6 +11,20 @@
     <title>Spotify Listening habits</title>
 </head>
 <body>
+    <header>
+        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex justify-content-between">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center">
+                <a href="{% url 'home' %}" class="nav-link">
+                    <h2 class=""><strong>Spotify</strong></h2>
+                </a>
+            </div> 
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center">
+                <a href="" class="nav-link">
+                    <h2 class=""><strong>Login</strong></h2>
+                </a>
+            </div> 
+        </div> 
+    </header>
     {% block content %}
     {% endblock %}
 </body>
